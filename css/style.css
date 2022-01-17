@@ -1,6 +1,13 @@
 /* GENERAL STYLES */
 body {
   font-family: "Ubuntu", sans-serif;
+  background-color: #343A40;
+  color: white;
+  ;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* END OF GENERAL STYLES */
@@ -14,7 +21,7 @@ body {
 
 .nav-link,
 .navbar-brand {
-  color: white;
+  color: #CC9900;
 }
 .animated-icon {
   width: 30px;
@@ -34,6 +41,7 @@ body {
 
 .animated-icon span {
   display: block;
+  background: #CC9900;
   position: absolute;
   height: 3px;
   width: 100%;
@@ -48,10 +56,6 @@ body {
   -moz-transition: 0.25s ease-in-out;
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-}
-
-.animated-icon span {
-  background: #ffffff;
 }
 
 .animated-icon span:nth-child(1) {
@@ -103,10 +107,13 @@ body {
 /* END NAVBAR */
 
 /* VIDEO HEADER */
+.slider-title-txt {
+  color: #CC9900;
+}
 header {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -155,3 +162,90 @@ header .overlay {
 }
 
 /* END VIDEO HEADER */
+
+/* ABOUT ME*/
+.about-photo {
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+.about {
+  background-color: #cc99000e;
+  padding:50px;
+  height: 100vh;
+}
+
+.fa-chevron-right {
+  color: #CC9900;
+  font-size: 17px;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: inline-block;
+  background: #CC9900;
+  margin: 8px 10px;
+  font-weight: bolder;
+}
+
+#cv-button {
+  display: block;
+  background-color: #CC9900;
+  color: white;
+  font-weight: bold;
+  padding: 5px 5px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: rgba(255, 255, 255, 0.2);
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #18d26e;
+}
+
+/* CONTACT AREA*/
+
+#contact {
+  height: 100vh;
+}
+
+/* FOOTER */
+.footer-txt {
+  border-top: 1px solid #CC9900;
+  color: #CC9900;
+}
+.btn-outline-light {
+  color: #CC9900;
+  border-color: #CC9900;
+}
+

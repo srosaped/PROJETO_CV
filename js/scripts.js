@@ -4,4 +4,8 @@ $(document).ready(function () {
   
       $('.animated-icon').toggleClass('open');
     });
+    
   });
+
+  
+
