@@ -1,3 +1,4 @@
+/* Hamburguer Menu Animation */
 $(document).ready(function () {
 
     $('.hamburguer').on('click', function () {
@@ -6,6 +7,3 @@ $(document).ready(function () {
     });
     
   });
-
-  
-
