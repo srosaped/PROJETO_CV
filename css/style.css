@@ -3,7 +3,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   background-color: #343A40;
   color: white;
-  ;
+  position: relative;
 }
 
 ul {
@@ -167,12 +167,17 @@ header .overlay {
 .about-photo {
   padding-top: 5px;
   border-radius: 10px;
+  position: relative;
 }
 
 .about {
   background-color: #cc99000e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding:50px;
   height: 100vh;
+  position: relative;
 }
 
 .fa-chevron-right {
@@ -232,17 +237,88 @@ header .overlay {
   transition: 0.9s;
   background-color: #18d26e;
 }
+/* CV SECTION */
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #CC9900;
+  margin-bottom: 10px;
+}
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #CC9900;
+  border: 2px solid #CC9900;
+}
 
 /* CONTACT AREA*/
 
-#contact {
+.contact {
   height: 100vh;
+  width: auto;
+  position: relative;
+}
+
+.btn-primary {
+  background-color: #CC9900;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #cc99007a;
+  border: none;
+}
+
+.fa-phone, .fa-envelope, .fa-map-marker-alt {
+  color:#CC9900;
 }
 
 /* FOOTER */
 .footer-txt {
   border-top: 1px solid #CC9900;
   color: #CC9900;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
 }
 .btn-outline-light {
   color: #CC9900;
