@@ -6,7 +6,7 @@ $(document).ready(function () {
       $('.animated-icon').toggleClass('open');
     });
 
-/* Smooth Scroll  */
+    /* Smooth Scroll  */
     $("a").on('click', function(event) {
 
       if (this.hash !== "") {
@@ -20,8 +20,23 @@ $(document).ready(function () {
       } 
     });
 
+     /* Skills Animation */
+    $("#skills").mouseover(function() {
+    $(".prog1").animate({
+      width: "70%"
+    }, 2500);
+    });
+
+    $("#skills").mouseout(function() {
+    $(".prog1").stop();
+    });
+
   });
 
+
+ 
+
+  /* Smoth Scroll to all browsers */
   const scrollto = () => {
     window.scrollTo({
       top: 0,

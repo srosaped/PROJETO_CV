@@ -14,7 +14,7 @@
         background: $input-background;
         i.fas {
             font-size: 24px;
-            color: $primary-yellow;
+            color: $primary-color1;
             border-radius: 50%;
             padding: 14px;
             float: left;
@@ -28,7 +28,7 @@
         }
         p {
             padding: 0;
-            color: $primary-white;
+            color: $primary-color2;
             line-height: 24px;
             font-size: 14px;
             margin: 0 0 0 68px;
@@ -39,7 +39,7 @@
             a {
                 font-size: 18px;
                 display: inline-block;
-                color: $primary-white;
+                color: $primary-color2;
                 line-height: 1;
                 margin-right: 12px;
                 transition: 0.3s;
@@ -56,10 +56,10 @@
             border-radius: 0;
             box-shadow: none;
             font-size: 14px;
-            background: $input-backgroung;
+            background: $input-background;
             border: 0;
             transition: 0.3s;
-            color: $primary-white;
+            color: $primary-color2;
             &:focus {
                 background-color: $input-focus;
             }

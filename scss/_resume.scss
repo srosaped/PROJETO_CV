@@ -10,12 +10,12 @@
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: $primary-color2;
 }
 .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid $resume-item;
   position: relative;
   h4 {
     line-height: 18px;
@@ -23,12 +23,12 @@
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #cc9900;
+    color: $primary-color1;
     margin-bottom: 10px;
   }
   h5 {
     font-size: 16px;
-    background: rgba(255, 255, 255, 0.15);
+    background: $h5-title;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
@@ -36,7 +36,7 @@
   }
   .resume-item  {
     font-size: 16px;
-    background: rgba(255, 255, 255, 0.15);
+    background: $resume-item;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
@@ -55,8 +55,8 @@
       border-radius: 50px;
       left: -9px;
       top: 0;
-      background: #cc9900;
-      border: 2px solid #cc9900;
+      background: $primary-color1;
+      border: 2px solid $primary-color1;
     }
   }
 }

@@ -17,7 +17,7 @@
   }
   
   .fa-chevron-right {
-    color: $primary-yellow;
+    color: $primary-color1;
     font-size: 17px;
   }
   
@@ -27,7 +27,7 @@
         width: 120px;
         height: 2px;
         display: inline-block;
-        background: $primary-yellow;
+        background: $primary-color1;
         margin: 8px 10px;
         font-weight: bolder;
     }
@@ -35,8 +35,8 @@
   
   #cv-button {
     display: block;
-    background-color: $primary-yellow;
-    color: $primary-white;
+    background-color: $primary-color1;
+    color: $primary-color2;
     font-weight: bold;
     padding: 5px 5px;
     margin-top: 10px;
@@ -78,7 +78,7 @@
             display: inline-block;
             font-weight: 600;
             font-family: "Poppins", sans-serif;
-            color: $primary-white;
+            color: $primary-color2;
             .val {
                 float: right;
                 font-style: normal;
@@ -92,7 +92,7 @@
         width: 1px;
         height: 10px;
         transition: 0.9s;
-        background-color: $primary-yellow;
+        background-color: $primary-color1;
     }
 }
   

@@ -1,30 +1,28 @@
 /* THANK YOU PAGE */
 .thanks {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(52,58,64);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-background;
+}
+
+.backhome-btn {
+  background-color: $primary-color1;
+  padding: 11px;
+  border-radius: 10px;
+  color: $primary-color2;
+  &:hover {
+    background: $btn-hover;
   }
-  
-  
-  .backhome-btn {
-    background-color: #CC9900;
-    padding: 11px;
-    border-radius: 10px;
-    color: white;
-    &:hover {
-      background: #cc990046;
-    }
-  }
-  
-  a.backhome-btn {
+}
+
+a.backhome-btn {
+  text-decoration: none;
+  font-weight: bolder;
+  &:hover {
     text-decoration: none;
-    font-weight: bolder;
-    &:hover {
-        text-decoration: none;
-        color:white;
-    }
+    color: $primary-color2;
   }
- 
+}

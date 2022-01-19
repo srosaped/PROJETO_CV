@@ -1,30 +1,34 @@
 /*---- Fonts ----*/
 $main-font: "Ubuntu", sans-serif;
 /*---- Main Colors ----*/
-$primary-yellow: #CC9900;
-$primary-white: #fff;
+$primary-color1: #cc9900;
+$primary-color2: #fff;
+$primary-color3: #000;
 
-$primary-background: #343A40;
-$secondary-background:#3C3F3C;
+$primary-background: #343a40;
+$secondary-background: #3c3f3c;
 $about-background: #cc99000e;
 
 /*---- Buttons Colors ----*/
-$primary-btn:#CC9900;
-$btn-hover:#cc990046;
+$primary-btn: #cc9900;
+$btn-hover: #cc990046;
 
 /*---- About Section ----*/
-$progress-bar-wrap:rgba(255, 255, 255, 0.2);
+$progress-bar-wrap: rgba(255, 255, 255, 0.2);
+
+/*---- Resume Section ----*/
+$resume-item: rgba(255, 255, 255, 0.2);
+$h5-title: rgba(255, 255, 255, 0.15);
 
 /*---- Contact Form Colors ----*/
 $contact: #cc99000e;
-$form-placeholder:rgba(255, 255, 255, 0.3);
+$form-placeholder: rgba(255, 255, 255, 0.3);
 $email-form-background: rgba(255, 255, 255, 0.08);
 $input-background: rgba(255, 255, 255, 0.08);
-$input-focus:rgba(255, 255, 255, 0.11);
+$input-focus: rgba(255, 255, 255, 0.11);
 $font-awesome-icon: rgba(255, 255, 255, 0.1);
-$info-box:#444444;
+$info-box: #444444;
 $h3-title: rgba(255, 255, 255, 0.5);
 
-
 /*---- Social links ----*/
-$social-icon-hover: #CC9900;
+$social-icon-hover: #cc9900;
