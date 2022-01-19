@@ -1,14 +1,12 @@
 $(document).ready(function () {
 
-/* Hamburguer Menu Animation */
+    /* Hamburguer Menu Animation */
     $('.hamburguer').on('click', function () {
-  
       $('.animated-icon').toggleClass('open');
     });
 
     /* Smooth Scroll  */
     $("a").on('click', function(event) {
-
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;
@@ -20,7 +18,7 @@ $(document).ready(function () {
       } 
     });
 
-     /* Skills Animation */
+    /* Skills Animation */
     $("#skills").mouseover(function() {
         $(".prog1").animate({
           width: "75%"
@@ -61,11 +59,11 @@ $(document).ready(function () {
 
   });
 
-  /* Smoth Scroll to all browsers */
+  /* Scroll to Top  Footer Button */
   const scrollto = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     })
   }
-    
+  
