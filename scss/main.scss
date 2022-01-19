@@ -6,14 +6,15 @@
 @import 'resume';
 @import 'contact';
 @import 'footer';
+@import 'thanks';
 
 /*---- GENERAL STYLES ----*/
 html {
     scroll-behavior: smooth;
     body {
-        font-family: "Ubuntu", sans-serif;
-        background-color: #343A40;
-        color: white;
+        font-family: $main-font;
+        background-color: $primary-background;
+        color: $primary-white;
         position: relative;
         ul {
             list-style-type: none;

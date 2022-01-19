@@ -1,0 +1,98 @@
+/*---- ABOUT ME ----*/  
+  .about {
+    background-color: $about-background;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+    height: 100vh;
+    position: relative;
+  }
+
+  .about-photo {
+    padding-bottom: 5px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .fa-chevron-right {
+    color: $primary-yellow;
+    font-size: 17px;
+  }
+  
+  .section-title {
+    h2::after {
+        content: "";
+        width: 120px;
+        height: 2px;
+        display: inline-block;
+        background: $primary-yellow;
+        margin: 8px 10px;
+        font-weight: bolder;
+    }
+  } 
+  
+  #cv-button {
+    display: block;
+    background-color: $primary-yellow;
+    color: $primary-white;
+    font-weight: bold;
+    padding: 5px 5px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+  /*---- MEDIA QUERIES ----*/
+  @media only screen and (max-width: 988px) {
+    .about {
+      height: auto;
+      padding-bottom: 50px;
+    }
+    .mobile-about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .about-photo {
+      width:200px;
+    }
+  }
+  
+.skills {
+    padding-top: 50px;
+    .progress {
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: none;
+        border-radius: 0;
+        .skill {
+            padding: 10px 0;
+            margin: 0;
+            text-transform: uppercase;
+            display: inline-block;
+            font-weight: 600;
+            font-family: "Poppins", sans-serif;
+            color: $primary-white;
+            .val {
+                float: right;
+                font-style: normal;
+            }
+        }
+    }
+    .progress-bar-wrap {
+        background: $progress-bar-wrap;
+    }
+    .progress-bar {
+        width: 1px;
+        height: 10px;
+        transition: 0.9s;
+        background-color: $primary-yellow;
+    }
+}
+  
