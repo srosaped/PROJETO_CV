@@ -2,13 +2,12 @@
 .slider-title-txt {
   color: $primary-color2;
 }
-
 .typewriter h1 {
   overflow: hidden; 
-  border-right: .15em solid $primary-color1;
+  border-right: 5px solid $primary-color1;
   white-space: nowrap;
   margin: 0 auto; 
-  letter-spacing: .15em;
+  letter-spacing: 10px;
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;

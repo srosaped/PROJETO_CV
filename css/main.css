@@ -95,10 +95,10 @@
 
 .typewriter h1 {
   overflow: hidden;
-  border-right: 0.15em solid #cc9900;
+  border-right: 5px solid #cc9900;
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: .15em;
+  letter-spacing: 10px;
   -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
           animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
@@ -337,15 +337,6 @@ header .overlay {
 
 .resume-item h5 {
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.15);
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.resume-item .resume-item {
-  font-size: 16px;
   background: rgba(255, 255, 255, 0.2);
   padding: 5px 15px;
   display: inline-block;
@@ -353,15 +344,15 @@ header .overlay {
   margin-bottom: 10px;
 }
 
-.resume-item .resume-item ul li {
+.resume-item h5 ul li {
   padding-bottom: 10px;
 }
 
-.resume-item .resume-item:last-child {
+.resume-item h5:last-child {
   padding-bottom: 0;
 }
 
-.resume-item .resume-item::before {
+.resume-item h5::before {
   content: "";
   position: absolute;
   width: 16px;
