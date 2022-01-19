@@ -566,6 +566,44 @@ a.backhome-btn:hover {
   color: #fff;
 }
 
+.projects-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projects-wrapper img {
+  width: 400px;
+  height: 200px;
+  margin-right: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 10px 1px #000;
+          box-shadow: 1px 1px 10px 1px #000;
+}
+
+.projects-wrapper .img-wrapper {
+  margin-bottom: 20px;
+}
+
+/*---- MEDIA QUERIES ----*/
+@media only screen and (max-width: 1227px) {
+  .projects-wrapper {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .projects-wrapper img {
+    width: 400px;
+    height: 200px;
+  }
+}
+
 /*---- GENERAL STYLES ----*/
 html {
   scroll-behavior: smooth;

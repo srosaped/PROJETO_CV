@@ -1,0 +1,30 @@
+.projects-wrapper {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 400px;
+        height: 200px;
+        margin-right: 15px;
+        border-radius: 15px;
+        box-shadow:1px 1px 10px 1px $primary-color3;
+    }
+    .img-wrapper {
+        margin-bottom: 20px;
+    }
+}
+
+/*---- MEDIA QUERIES ----*/
+@media only screen and (max-width: 1227px) {
+    .projects-wrapper {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        img {
+            width: 400px;
+            height: 200px;
+
+        }
+    }
+
+}
+  
