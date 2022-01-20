@@ -179,7 +179,7 @@ header .overlay {
 
 /*---- ABOUT ME ----*/
 .about {
-  background-color: #cc99000e;
+  background-color: #343a40;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -381,7 +381,7 @@ header .overlay {
 
 /*---- FORM STYLES ----*/
 .contact {
-  background-color: #cc99000e;
+  background-color: #343a40;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,6 +392,8 @@ header .overlay {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
