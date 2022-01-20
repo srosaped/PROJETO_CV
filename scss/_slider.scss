@@ -57,3 +57,9 @@ header {
     z-index: 1;
   }
 }
+/*---- MEDIA QUERIES ----*/
+@media only screen and (max-width: 988px) {
+  .typewriter h1 {
+    font-size: 35px;
+  }
+}

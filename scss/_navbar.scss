@@ -1,9 +1,9 @@
 /* NAVBAR STYLES */
 .navbar {
   background-color: transparent;
-  z-index: 2;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 .nav-link,
 .navbar-brand {
@@ -92,3 +92,17 @@
   top: 21px;
   left: 8px;
 }
+
+  /*---- MEDIA QUERIES ----*/
+  @media only screen and (max-width: 450px) {
+    .navbar {
+      background-color: $dropdown-background;
+      position: fixed;
+      width: 100%;
+      z-index: 100;
+    }
+    .nav-link,
+    .navbar-brand {
+      position: relative;
+    }
+  }

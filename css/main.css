@@ -9,9 +9,9 @@
 /* NAVBAR STYLES */
 .navbar {
   background-color: transparent;
-  z-index: 2;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 .nav-link,
@@ -86,6 +86,20 @@
   transform: rotate(-45deg);
   top: 21px;
   left: 8px;
+}
+
+/*---- MEDIA QUERIES ----*/
+@media only screen and (max-width: 450px) {
+  .navbar {
+    background-color: #343a408a;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  .nav-link,
+  .navbar-brand {
+    position: relative;
+  }
 }
 
 /* VIDEO HEADER */
@@ -175,6 +189,13 @@ header .overlay {
   background-color: #000;
   opacity: 0.5;
   z-index: 1;
+}
+
+/*---- MEDIA QUERIES ----*/
+@media only screen and (max-width: 988px) {
+  .typewriter h1 {
+    font-size: 35px;
+  }
 }
 
 /*---- ABOUT ME ----*/
@@ -517,6 +538,7 @@ header .overlay {
 @media only screen and (max-width: 952px) {
   .contact {
     height: auto;
+    margin-top: 0;
   }
 }
 
@@ -572,6 +594,21 @@ a.backhome-btn:hover {
   color: #fff;
 }
 
+.projects {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #343a40;
+}
+
 .projects-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -610,8 +647,23 @@ a.backhome-btn:hover {
           transform: scale(1.1);
 }
 
+.projects-wrapper .margin-lr {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.social-home {
+  height: auto;
+  width: auto;
+  margin-bottom: 50px;
+}
+
 /*---- MEDIA QUERIES ----*/
 @media only screen and (max-width: 1227px) {
+  .projects {
+    height: auto;
+    padding-top: 50px;
+  }
   .projects-wrapper {
     width: 100%;
     -webkit-box-orient: vertical;
@@ -622,6 +674,17 @@ a.backhome-btn:hover {
   }
   .projects-wrapper img {
     width: 400px;
+    height: 200px;
+  }
+  .projects-wrapper .margin-lr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .projects-wrapper img {
+    width: 100%;
     height: 200px;
   }
 }
