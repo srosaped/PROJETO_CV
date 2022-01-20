@@ -57,6 +57,11 @@ $(document).ready(function () {
       $(".prog8").stop();
     });
 
+    /*To Enable Tooltips*/
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
   });
 
   /* Scroll to Top  Footer Button */

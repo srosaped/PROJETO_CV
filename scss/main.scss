@@ -1,29 +1,24 @@
 /*---- IMPORTS ----*/
-@import 'variables';
-@import 'navbar';
-@import 'slider';
-@import 'about';
-@import 'resume';
-@import 'contact';
-@import 'footer';
-@import 'thanks';
-@import 'projects';
+@import "variables";
+@import "navbar";
+@import "slider";
+@import "about";
+@import "resume";
+@import "contact";
+@import "footer";
+@import "thanks";
+@import "projects";
 
 /*---- GENERAL STYLES ----*/
 html {
-    scroll-behavior: smooth;
-    body {
-        font-family: $main-font;
-        background-color: $primary-background;
-        color: $primary-color2;
-        position: relative;
-        ul {
-            list-style-type: none;
-        }
+  scroll-behavior: smooth;
+  body {
+    font-family: $main-font;
+    background-color: $primary-background;
+    color: $primary-color2;
+    position: relative;
+    ul {
+      list-style-type: none;
     }
+  }
 }
-  
-  
-  
-  
- 

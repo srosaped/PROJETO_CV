@@ -44,6 +44,9 @@
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
+    &:hover {
+      background: $btn-hover;
+    }
   }
 
   /*---- MEDIA QUERIES ----*/
